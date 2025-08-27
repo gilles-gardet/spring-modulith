@@ -1,0 +1,17 @@
+[%autowidth.stretch, cols="h,a"]
+|===
+|Base package
+|`com.ggardet.establishment`
+|Spring components
+|_Controllers_
+
+* `c.g.e.EstablishmentController`
+
+_Services_
+
+* `c.g.e.EstablishmentServiceInterface` (via `c.g.e.internal.domain.EstablishmentService`)
+|Published events
+|* `c.g.e.spi.event.EstablishmentDeletedEvent` created by:
+** `c.g.e.spi.external.ExternalService.publishDeleteEstablishmentEvent(…)`
+
+|===
