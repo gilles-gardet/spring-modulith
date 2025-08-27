@@ -1,0 +1,9 @@
+[%autowidth.stretch, cols="h,a"]
+|===
+|Base package
+|`com.ggardet.core`
+|Spring components
+|* `c.g.c.configuration.MultiModuleFlywayMigrationStrategy`
+* `c.g.c.enumeration.ValueOfEnumValidator`
+* `c.g.c.events.EventPublications`
+|===

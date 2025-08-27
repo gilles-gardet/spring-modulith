@@ -1,0 +1,17 @@
+[%autowidth.stretch, cols="h,a"]
+|===
+|Base package
+|`com.ggardet.classroom`
+|Spring components
+|_Controllers_
+
+* `c.g.c.ClassroomController`
+
+_Services_
+
+* `c.g.c.ClassroomServiceInterface` (via `c.g.c.internal.domain.ClassroomService`)
+|Bean references
+|* `c.g.e.EstablishmentServiceInterface` (in Establishment)
+|Events listened to
+|* `c.g.e.spi.event.EstablishmentDeletedEvent`
+|===

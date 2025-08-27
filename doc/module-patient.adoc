@@ -1,0 +1,17 @@
+[%autowidth.stretch, cols="h,a"]
+|===
+|Base package
+|`com.ggardet.patient`
+|Spring components
+|_Controllers_
+
+* `c.g.p.MedicalRecordController`
+* `c.g.p.MedicationController`
+* `c.g.p.PatientController`
+
+_Services_
+
+* `c.g.p.PatientServiceInterface` (via `c.g.p.internal.domain.PatientServiceInterfaceImpl`)
+|Events listened to
+|* `c.g.c.HospitalDeletedEvent`
+|===
