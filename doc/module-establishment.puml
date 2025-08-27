@@ -1,0 +1,19 @@
+@startuml
+set separator none
+title Establishment
+
+top to bottom direction
+
+!include <C4/C4>
+!include <C4/C4_Context>
+!include <C4/C4_Component>
+
+Container_Boundary("SpringModulithApplication.SpringModulithApplication_boundary", "SpringModulithApplication", $tags="") {
+  Component(SpringModulithApplication.SpringModulithApplication.core, "core", $techn="Module", $descr="", $tags="", $link="")
+  Component(SpringModulithApplication.SpringModulithApplication.Establishment, "Establishment", $techn="Module", $descr="", $tags="", $link="")
+}
+
+Rel(SpringModulithApplication.SpringModulithApplication.Establishment, SpringModulithApplication.SpringModulithApplication.core, "depends on", $techn="", $tags="", $link="")
+
+SHOW_LEGEND(true)
+@enduml

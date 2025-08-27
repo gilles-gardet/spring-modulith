@@ -1,0 +1,15 @@
+[%autowidth.stretch, cols="h,a"]
+|===
+|Base package
+|`com.ggardet.doctor`
+|Spring components
+|_Controllers_
+
+* `c.g.d.DoctorController`
+
+_Services_
+
+* `c.g.d.DoctorServiceInterface` (via `c.g.d.internal.domain.DoctorService`)
+|Events listened to
+|* `c.g.c.HospitalDeletedEvent`
+|===

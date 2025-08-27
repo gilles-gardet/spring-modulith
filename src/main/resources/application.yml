@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    username: modularmonolith
+    url: jdbc:postgresql://localhost:5435/modularmonolith
+    password: modularmonolith
+    driver-class-name: org.postgresql.Driver
+  docker.compose.enabled: true
+  jpa.open-in-view: false

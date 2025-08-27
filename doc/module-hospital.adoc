@@ -1,0 +1,13 @@
+[%autowidth.stretch, cols="h,a"]
+|===
+|Base package
+|`com.ggardet.hospital`
+|Spring components
+|_Controllers_
+
+* `c.g.h.HospitalController`
+
+_Services_
+
+* `c.g.h.HospitalServiceInterface` (via `c.g.h.internal.domain.HospitalService`)
+|===
